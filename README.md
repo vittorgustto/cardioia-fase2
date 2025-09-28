@@ -71,18 +71,23 @@ O dataset foi balanceado para conter o mesmo número de amostras normais e anorm
 
 - **Acurácia no conjunto de teste:** ~91%  
 - **Relatório de classificação:**
+
+```
           precision    recall  f1-score   support
 
   normal       0.88      0.95      0.92      1012
  anormal       0.95      0.87      0.91      1011
 
 accuracy                           0.91      2023
+```
 
+<br>
 macro avg 0.92 0.91 0.91 2023
+
 weighted avg 0.92 0.91 0.91 2023
+<br><br>
 
-
-- **Matriz de Confusão:**
+**Matriz de Confusão:**
 
 |               | Pred Normal | Pred Anormal |
 |---------------|-------------|--------------|
