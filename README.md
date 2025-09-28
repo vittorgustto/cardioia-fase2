@@ -24,8 +24,6 @@
 
 ## 📜 Descrição
 
-### CardioIA – Fase 2: Ir Além 2 ###
-
 # 🫀 CardioIA – Fase 2: Ir Além 2 – Diagnóstico visual em cardiologia com MLP
 
 Este projeto aplica uma **Rede Neural Artificial (MLP – Perceptron Multicamadas)** para classificar imagens médicas de **eletrocardiogramas (ECG)** em **normal** ou **anormal**.  
@@ -72,4 +70,35 @@ O dataset foi balanceado para conter o mesmo número de amostras normais e anorm
 
 - **Acurácia no conjunto de teste:** ~91%  
 - **Relatório de classificação:**
+          precision    recall  f1-score   support
+
+  normal       0.88      0.95      0.92      1012
+ anormal       0.95      0.87      0.91      1011
+
+accuracy                           0.91      2023
+
+macro avg 0.92 0.91 0.91 2023
+weighted avg 0.92 0.91 0.91 2023
+
+
+- **Matriz de Confusão:**
+
+|               | Pred Normal | Pred Anormal |
+|---------------|-------------|--------------|
+| **True Normal**   | 964         | 48           |
+| **True Anormal**  | 127         | 884          |
+
+![Gráfico Matriz de Confusão](./assets/Gráfico Matriz de Confusão.png)
+
+
+---
+
+## ▶️ Demonstração em Vídeo
+
+📹 [Clique aqui para assistir no YouTube](COLOQUE_AQUI_O_LINK_NAO_LISTADO)  
+
+---
+
+## 📂 Estrutura do Repositório
+
 
