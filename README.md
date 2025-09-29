@@ -110,6 +110,22 @@ Este resultado reforça a importância da IA na área da saúde, auxiliando prof
 
 ---
 
+## 🚀 Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/SEU_USUARIO/Ir-Alem-2-ECG-MLP.git
+
+   ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e...
+   
+2. Abra o notebook no Google Colab ou Jupyter.
+
+3. Faça upload do arquivo kaggle.json na seção "Arquivos" do Colab
+
+4. Execute todas as células na ordem.
+
+---
+
 ## Estrutura do Repositório
 
 ```
@@ -118,17 +134,6 @@ Este resultado reforça a importância da IA na área da saúde, auxiliando prof
 ├── exemplo_anormal.png # Exemplo de ECG anormal
 └── README.md # Este arquivo
 ```
-
----
-
-## 🚀 Como Executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/Ir-Alem-2-ECG-MLP.git
-2. Abra o notebook no Google Colab ou Jupyter.
-
-3. Execute todas as células na ordem.
 
 ---
 
