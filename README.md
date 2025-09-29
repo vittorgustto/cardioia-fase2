@@ -24,6 +24,104 @@
 
 ## 📜 Descrição
 
+# 🫀 CardioIA – Fase 2: Ir Além 1 – Interface do CardioIA
+
+O objetivo é construir a interface do **CardioIA** em **React + Vite**, simulando um portal de cardiologia com autenticação fake, listagem de pacientes, agendamento de consultas e um dashboard com métricas.
+
+---
+
+## 📌 Funcionalidades
+
+- 🔑 **Autenticação simulada** via Context API (login fake, armazenado em estado).
+- 👨‍⚕️ **Listagem de pacientes** consumindo dados de uma API fake (JSONPlaceholder).
+- 📅 **Formulário de agendamento de consultas** usando `useState` e `useReducer`.
+- 📊 **Dashboard simples** com:
+  - Número total de pacientes.
+  - Número total de consultas agendadas.
+  - Gráfico ilustrativo com **Recharts**.
+- 🔒 **Proteção de rotas**: apenas usuários logados conseguem acessar pacientes, agendamentos e dashboard.
+- 🎨 **Estilização responsiva** utilizando CSS Modules.
+
+---
+
+## 🚀 Como executar o projeto
+
+1️. **Clonar o repositório**
+
+```bash
+git clone https://github.com/vittorgustto/cardioia-fase2.git
+cd cardioia-fase2/ir-alem1-frontend
+
+ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e...
+```
+
+2. **Instalar as dependências**
+```
+npm install
+```
+
+3. **Instalar a biblioteca de gráficos (Recharts)**
+```
+npm install recharts
+```
+
+4. **Rodar a aplicação**
+```
+npm run dev
+```
+
+A aplicação estará disponível em:
+👉 http://localhost:5173
+
+---
+
+## 🧪 Login Simulado
+
+Para acessar o portal, use qualquer e-mail e senha no login.
+Exemplo:
+
+```
+email: teste@teste.com
+senha: 123456
+```
+
+---
+
+## ▶️ Demonstração em Vídeo
+
+📹 [Clique aqui para assistir no YouTube](COLOQUE_AQUI_O_LINK_NAO_LISTADO)  
+
+---
+
+## 📑 Observações
+
+Este projeto não possui back-end real. Todos os dados são simulados via JSONPlaceholder e estados internos do React. O objetivo é demonstrar boas práticas de Front-End:
+
+
+  - Componentização
+  - Hooks (useState, useEffect, useContext, useReducer)
+  - Context API
+  - Roteamento protegido
+
+---
+
+## 📂 Estrutura de Pastas
+
+```
+ir-alem1-frontend/
+├── public/
+├── src/
+│ ├── components/ # Componentes reutilizáveis
+│ ├── contexts/ # AuthContext e PatientsContext
+│ ├── pages/ # Login, Dashboard, Patients, Schedule
+│ ├── services/ # Serviços (API fake)
+│ ├── App.jsx # Roteamento e Context Providers
+│ └── main.jsx # Ponto de entrada
+├── package.json
+└── vite.config.js
+```
+
+---
 
 # 🫀 CardioIA – Fase 2: Ir Além 2 – Diagnóstico visual em cardiologia com MLP
 
@@ -67,6 +165,22 @@ O dataset foi balanceado para conter o mesmo número de amostras normais e anorm
 
 ---
 
+## 🚀 Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/SEU_USUARIO/Ir-Alem-2-ECG-MLP.git
+
+   ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e...
+   
+2. Abra o notebook no Google Colab ou Jupyter.
+
+3. Faça upload do arquivo kaggle.json na seção "Arquivos" do Colab
+
+4. Execute todas as células na ordem.
+
+---
+
 ## 📈 Resultados
 
 - **Acurácia no conjunto de teste:** ~91%  
@@ -107,22 +221,6 @@ weighted avg   0.92      0.91      0.91      2023
 O modelo MLP foi capaz de alcançar 91% de acurácia, mostrando que mesmo arquiteturas simples podem apoiar tarefas de triagem médica em ECGs.
 
 Este resultado reforça a importância da IA na área da saúde, auxiliando profissionais na detecção precoce de anomalias cardíacas.
-
----
-
-## 🚀 Como Executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/Ir-Alem-2-ECG-MLP.git
-
-   ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e...
-   
-2. Abra o notebook no Google Colab ou Jupyter.
-
-3. Faça upload do arquivo kaggle.json na seção "Arquivos" do Colab
-
-4. Execute todas as células na ordem.
 
 ---
 
