@@ -129,7 +129,7 @@ Este resultado reforça a importância da IA na área da saúde, auxiliando prof
 ## Estrutura do Repositório
 
 ```
-├── notebook.ipynb # Notebook com todo o código
+├── rede_neural_ecg.ipynb # Notebook com todo o código
 ├── exemplo_normal.png # Exemplo de ECG normal
 ├── exemplo_anormal.png # Exemplo de ECG anormal
 └── README.md # Este arquivo
