@@ -52,7 +52,7 @@ O objetivo é construir a interface do **CardioIA** em **React + Vite**, simulan
 git clone https://github.com/vittorgustto/cardioia-fase2.git
 cd cardioia-fase2/ir-alem1-frontend
 
-ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e...
+ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e... [CORRIGIR]
 ```
 
 2. **Instalar as dependências**
@@ -108,6 +108,8 @@ Este projeto não possui back-end real. Todos os dados são simulados via JSONPl
 ## 📂 Estrutura de Pastas
 
 ```
+[CORRIGIR]
+
 ir-alem1-frontend/
 ├── public/
 ├── src/
@@ -169,7 +171,7 @@ O dataset foi balanceado para conter o mesmo número de amostras normais e anorm
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/Ir-Alem-2-ECG-MLP.git
+   git clone https://github.com/SEU_USUARIO/Ir-Alem-2-ECG-MLP.git [CORRIGIR]
 
    ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e...
    
@@ -227,6 +229,8 @@ Este resultado reforça a importância da IA na área da saúde, auxiliando prof
 ## Estrutura do Repositório
 
 ```
+[CORRIGIR]
+
 ├── rede_neural_ecg.ipynb # Notebook com todo o código
 ├── exemplo_normal.png # Exemplo de ECG normal
 ├── exemplo_anormal.png # Exemplo de ECG anormal
