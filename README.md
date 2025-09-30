@@ -42,9 +42,19 @@ O propósito desta fase é simular a automatização do diagnóstico com IA, mos
 
 ---
 
-## 🚀 Como Executar
+## 🔹 Parte 1 — Diagnóstico Automático
 
-🔹 **Parte 1 — Diagnóstico Automático**
+A Parte 1 simula um sistema especialista baseado em regras, no qual sintomas mencionados por pacientes em frases livres são detectados automaticamente e relacionados a possíveis diagnósticos.
+
+- **Entrada:** frases de pacientes (ex.: “Estou com dor no peito e falta de ar”).
+- **Processo:** identificação de sintomas com base no mapa_conhecimento.csv.
+- **Saída:** lista de sintomas detectados e diagnósticos sugeridos.
+
+💡 Essa etapa mostra como sistemas simples de correspondência podem apoiar triagens médicas iniciais.
+
+---
+
+## 🚀 Como Executar
 
 1. Abra a pasta parte1/.
 
@@ -73,7 +83,19 @@ resultados_diagnostico.csv
 
 ---
 
-🔹 **Parte 2 — Classificador de Risco**
+## 🔹 Parte 2 — Classificador de Risco
+
+A Parte 2 amplia o projeto para o uso de Machine Learning supervisionado, onde um modelo é treinado para classificar frases clínicas em alto risco ou baixo risco.
+
+- **Entrada:** dataset rotulado (frases_risco.csv).
+- **Processo:** pré-processamento com TF-IDF, treinamento com algoritmos do Scikit-learn e avaliação do desempenho.
+- **Saída:** predição de risco para novas frases (ex.: “Falta de ar intensa” → Alto risco).
+
+💡 Essa etapa evidencia o uso prático de IA para apoio à tomada de decisão, priorizando pacientes em situações críticas.
+
+---
+
+## 🚀 Como Executar
 
 1. Abra o notebook classificador_risco.ipynb.
 2. Carregue o dataset frases_risco.csv.
@@ -104,6 +126,17 @@ Predição: Alto Risco
 ## ▶️ Demonstração em Vídeo
 
 📹 [Clique aqui para assistir no YouTube](COLOQUE_AQUI_O_LINK_NAO_LISTADO)  
+
+---
+
+## 🔎 Conclusão
+
+A **Fase 2 do CardioIA** demonstra duas abordagens complementares para diagnóstico automatizado:
+
+1. **Regras baseadas em sintomas (Parte 1)** — úteis para triagens rápidas.
+2. **Machine Learning supervisionado (Parte 2)** — capaz de aprender padrões e generalizar para novos casos.
+
+Essas técnicas reforçam como a **IA pode apoiar a medicina** ao oferecer ferramentas de análise inicial, organização da informação clínica e suporte à decisão médica, sem substituir a avaliação profissional.
 
 ---
 
