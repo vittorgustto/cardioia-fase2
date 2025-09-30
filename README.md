@@ -24,6 +24,110 @@
 
 ## 📜 Descrição
 
+# 🩺 CardioIA — Fase 2
+
+**Diagnóstico Automatizado: IA no Estetoscópio Digital**
+
+Este repositório contém a Fase 2 do projeto CardioIA, dividida em duas partes:
+
+- Parte 1: Extração de sintomas e sugestão de diagnóstico.
+
+- Parte 2: Classificação de risco em frases clínicas com Machine Learning.
+
+---
+
+## 📌 Objetivo
+
+O propósito desta fase é simular a automatização do diagnóstico com IA, mostrando como algoritmos simples aliados a dados bem estruturados podem apoiar médicos em processos de triagem e decisão clínica.
+
+---
+
+## 🚀 Como Executar
+
+🔹 **Parte 1 — Diagnóstico Automático**
+
+1. Abra a pasta parte1/.
+
+2. Execute o script no terminal:
+
+```
+python diagnostico.py
+```
+
+3. A saída será gerada no arquivo:
+
+```
+resultados_diagnostico.csv
+```
+
+4. O arquivo contém:
+
+- A frase original.
+- Sintomas detectados.
+- Diagnósticos sugeridos.
+
+💡 Exemplo de resultado esperado:
+| frase                          | sintomas_detectados | diagnosticos_sugeridos |
+| ------------------------------ | ------------------- | ---------------------- |
+| "Sinto dor no peito há 2 dias" | dor no peito        | Infarto                |
+
+---
+
+🔹 **Parte 2 — Classificador de Risco**
+
+1. Abra o notebook classificador_risco.ipynb.
+2. Carregue o dataset frases_risco.csv.
+3. Execute todas as células na ordem:
+
+- Pré-processamento com TF-IDF.
+- Treinamento do modelo (ex.: Regressão Logística ou Naive Bayes).
+- Avaliação (acurácia, matriz de confusão, exemplos de predição).
+
+💡 Exemplo de uso no final do notebook:
+```
+Frase: "Estou com falta de ar e dor no peito"
+Predição: Alto Risco
+```
+
+---
+
+## 📊 Tecnologias Utilizadas
+
+- Python 3
+- Pandas — manipulação de dados
+- Scikit-learn — vetorização TF-IDF, treino e avaliação de modelos
+- Matplotlib — gráficos e matriz de confusão
+- Jupyter Notebook / Google Colab
+
+---
+
+## ▶️ Demonstração em Vídeo
+
+📹 [Clique aqui para assistir no YouTube](COLOQUE_AQUI_O_LINK_NAO_LISTADO)  
+
+---
+
+## 🗂 Estrutura do Projeto
+
+```
+[CORRIGIR]
+Fase2/
+│
+├── parte1/
+│   ├── sintomas.txt                # 10 frases simuladas de pacientes
+│   ├── mapa_conhecimento.csv       # mapa de sintomas → doenças
+│   ├── diagnostico.py              # script que analisa frases e sugere diagnósticos
+│   └── resultados_diagnostico.csv  # saída gerada
+│
+├── parte2/
+│   ├── frases_risco.csv            # dataset com frases e rótulos (alto/baixo risco)
+│   └── classificador_risco.ipynb   # notebook com TF-IDF, treino e avaliação do modelo
+│
+└── README.md
+```
+
+---
+
 # 🫀 CardioIA – Fase 2: Ir Além 1 – Interface do CardioIA
 
 O objetivo é construir a interface do **CardioIA** em **React + Vite**, simulando um portal de cardiologia com autenticação fake, listagem de pacientes, agendamento de consultas e um dashboard com métricas.
