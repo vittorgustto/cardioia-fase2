@@ -351,7 +351,7 @@ weighted avg   0.92      0.91      0.91      2023
 
 ## ▶️ Demonstração em Vídeo
 
-📹 [Clique aqui para assistir no YouTube](COLOQUE_AQUI_O_LINK_NAO_LISTADO)  
+📹 [Clique aqui para assistir no YouTube](https://www.youtube.com/watch?v=LlpKeJxpuuE)  
 
 ---
 
