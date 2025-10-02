@@ -1,0 +1,11 @@
+﻿id_frase;frase;sintomas_detectados;diagnosticos_sugeridos
+1;"Há dois dias sinto dor em aperto no centro do peito que piora quando subo escadas; fico com falta de ar e suor frio.";"aperto; falta de ar; suor frio";"Infarto agudo do miocárdio; Insuficiência cardíaca; Angina instável; Ataque de pânico; Embolia pulmonar"
+2;Tenho cansaço constante há uma semana e inchaço nos tornozelos ao final do dia, mesmo em repouso.;"cansaço; inchaço nos tornozelos";Insuficiência cardíaca
+3;Durante uma caminhada leve senti pontadas no peito do lado esquerdo e formigamento no braço esquerdo.;"formigamento; formigamento no braço esquerdo";Isquemia miocárdica
+4;Acordei de madrugada com palpitações rápidas e tontura, como se fosse desmaiar.;"palpitações; tontura";Taquiarritmia
+5;"Desde ontem à noite estou com dor aguda no peito que piora ao inspirar profundamente; também apresento tosse seca.";tosse;Embolia pulmonar
+6;"Após uma refeição pesada tive queimação no peito e arrotos; o desconforto melhorou quando me deitei.";"desconforto; queimação; queimação no peito";"Refluxo gastroesofágico; Angina estável"
+7;Sinto falta de ar ao caminhar curtas distâncias e fico muito cansado para realizar tarefas simples.;falta de ar;"Insuficiência cardíaca; Angina instável; Ataque de pânico; Embolia pulmonar"
+8;"Hoje durante a academia tive dor no peito em aperto irradiando para mandíbula e braço esquerdo; precisei parar o exercício.";"aperto; dor no peito";"Infarto agudo do miocárdio; Isquemia miocárdica; Angina instável; Síndrome coronariana aguda; Refluxo gastroesofágico; Dor torácica não cardíaca; Angina estável"
+9;Tenho dor leve no peito que aparece quando estou ansioso e passa em minutos com respiração profunda.;dor leve no peito;Dor torácica não cardíaca
+10;Notei ganho de peso recente e dificuldade para respirar quando me deito, melhorando quando sento.;"dificuldade para respirar; ganho de peso";Insuficiência cardíaca
