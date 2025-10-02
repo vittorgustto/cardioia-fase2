@@ -56,7 +56,7 @@ A Parte 1 simula um sistema especialista baseado em regras, no qual sintomas men
 
 ## 🚀 Como Executar
 
-1. Abra a pasta parte1/.
+1. Abra a pasta "Parte 1" no VS Code.
 
 2. Execute o script no terminal:
 
@@ -99,7 +99,7 @@ A Parte 2 amplia o projeto para o uso de Machine Learning supervisionado, onde u
 
 1. Abra o notebook classificador_risco.ipynb.
 2. Carregue o dataset frases_risco.csv.
-3. Execute todas as células na ordem:
+3. Execute todas as células na ordem do notebook:
 
 - Pré-processamento com TF-IDF.
 - Treinamento do modelo (ex.: Regressão Logística ou Naive Bayes).
@@ -181,26 +181,28 @@ O objetivo é construir a interface do **CardioIA** em **React + Vite**, simulan
 
 ## 🚀 Como executar o projeto
 
-1️. **Clonar o repositório**
+1️. **Download dos arquivos**
 
 ```bash
-git clone https://github.com/vittorgustto/cardioia-fase2.git
-cd cardioia-fase2/ir-alem1-frontend
-
-ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e... [CORRIGIR]
+Faça o download do arquivo "ir_alem1_frontend.zip" e extraia ele. O resultado será a pasta "ir_alem1_frontend" contendo todos os arquivos do portal.
 ```
 
-2. **Instalar as dependências**
+2. **Abrir no VS Code**
+```
+Com o VS Code aberto abra a pasta "ir_alem1_frontend" no VS Code.
+```
+
+3. **Instalar as dependências**
 ```
 npm install
 ```
 
-3. **Instalar a biblioteca de gráficos (Recharts)**
+4. **Instalar a biblioteca de gráficos (Recharts)**
 ```
 npm install recharts
 ```
 
-4. **Rodar a aplicação**
+5. **Rodar a aplicação**
 ```
 npm run dev
 ```
@@ -297,11 +299,7 @@ O dataset foi balanceado para conter o mesmo número de amostras normais e anorm
 
 ## 🚀 Como Executar
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/Ir-Alem-2-ECG-MLP.git [CORRIGIR]
-
-   ou faça o download do notebook rede_neural_ecg.ipynb e do arquivo kaggle.json e...
+1️. Faça o download do notebook "rede_neural_ecg.ipynb" e do arquivo "kaggle.json"
    
 2. Abra o notebook no Google Colab ou Jupyter.
 
