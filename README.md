@@ -374,6 +374,25 @@ Este resultado reforça a importância da IA na área da saúde, auxiliando prof
 └── README.md # Este arquivo
 ```
 
+cardioia-fase2/
+├─ assets/
+├─ docs/
+│  ├─ Parte1/
+│  │  ├─ diagnostico.py
+│  │  ├─ frases.txt
+│  │  ├─ mapa_conhecimento.csv
+│  │  └─ resultados_diagnostico.csv
+│  ├─ Parte2/
+│  │  ├─ classificador.ipynb
+│  │  └─ frases_risco.csv
+│  ├─ Ir Além 1
+│  │  └─ ir_alem1_frontend.zip
+│  ├─ Ir Além 2
+│  │  ├─ kaggle.json
+│  │  └─ rede_neural_ecg.ipynb
+└─ README.md
+
+
 ---
 
 ## 📁 Estrutura de pastas
