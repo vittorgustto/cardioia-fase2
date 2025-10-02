@@ -140,23 +140,21 @@ Essas técnicas reforçam como a **IA pode apoiar a medicina** ao oferecer ferra
 
 ---
 
-## 🗂 Estrutura do Projeto
+## 🗂 Estrutura dos Arquivos (Parte 1 e 2)
 
 ```
-[CORRIGIR]
-Fase2/
-│
-├── parte1/
-│   ├── sintomas.txt                # 10 frases simuladas de pacientes
-│   ├── mapa_conhecimento.csv       # mapa de sintomas → doenças
-│   ├── diagnostico.py              # script que analisa frases e sugere diagnósticos
-│   └── resultados_diagnostico.csv  # saída gerada
-│
-├── parte2/
-│   ├── frases_risco.csv            # dataset com frases e rótulos (alto/baixo risco)
-│   └── classificador_risco.ipynb   # notebook com TF-IDF, treino e avaliação do modelo
-│
-└── README.md
+cardioia-fase2/
+├─ assets/
+├─ docs/
+│  ├─ Parte1/
+│  │  ├─ diagnostico.py              # script que analisa frases e sugere diagnósticos
+│  │  ├─ sintomas.txt                # 10 frases simuladas de pacientes
+│  │  ├─ mapa_conhecimento.csv       # mapa de sintomas → doenças
+│  │  └─ resultados_diagnostico.csv  # saída gerada
+│  ├─ Parte2/
+│  │  ├─ classificador.ipynb         # notebook com TF-IDF, treino e avaliação do modelo
+│  │  └─ frases_risco.csv            # dataset com frases e rótulos (alto/baixo risco)
+└─ README
 ```
 
 ---
@@ -242,22 +240,15 @@ Este projeto não possui back-end real. Todos os dados são simulados via JSONPl
 
 ---
 
-## 📂 Estrutura de Pastas
+## 📂 Estrutura dos Arquivos (Ir Além 1)
 
 ```
-[CORRIGIR]
-
-ir-alem1-frontend/
-├── public/
-├── src/
-│ ├── components/ # Componentes reutilizáveis
-│ ├── contexts/ # AuthContext e PatientsContext
-│ ├── pages/ # Login, Dashboard, Patients, Schedule
-│ ├── services/ # Serviços (API fake)
-│ ├── App.jsx # Roteamento e Context Providers
-│ └── main.jsx # Ponto de entrada
-├── package.json
-└── vite.config.js
+cardioia-fase2/
+├─ assets/
+├─ docs/
+│  ├─ Ir Além 1
+│  │  └─ ir_alem1_frontend.zip
+└─ README
 ```
 
 ---
@@ -363,17 +354,23 @@ Este resultado reforça a importância da IA na área da saúde, auxiliando prof
 
 ---
 
-## Estrutura do Repositório
+## Estrutura dos Arquivos (Ir Além 2)
 
 ```
-[CORRIGIR]
-
-├── rede_neural_ecg.ipynb # Notebook com todo o código
-├── exemplo_normal.png # Exemplo de ECG normal
-├── exemplo_anormal.png # Exemplo de ECG anormal
-└── README.md # Este arquivo
+cardioia-fase2/
+├─ assets/
+├─ docs/
+│  ├─ Ir Além 2
+│  │  ├─ kaggle.json
+│  │  └─ rede_neural_ecg.ipynb
+└─ README
 ```
 
+---
+
+## 🗂 Estrutura Completa do Repositório
+
+```
 cardioia-fase2/
 ├─ assets/
 ├─ docs/
@@ -391,7 +388,7 @@ cardioia-fase2/
 │  │  ├─ kaggle.json
 │  │  └─ rede_neural_ecg.ipynb
 └─ README.md
-
+```
 
 ---
 
